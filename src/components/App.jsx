@@ -12,12 +12,12 @@ export class App extends Component {
     bad: 0,
   };
 
-  handleFeedback = key => {
+  handleFeedback = option => {
     // const buttonKey = event.target.textContent;
     // console.log(key);
 
     this.setState(prevState => {
-      return { [key]: prevState[key] + 1 };
+      return { [option]: prevState[option] + 1 };
     });
   };
 
