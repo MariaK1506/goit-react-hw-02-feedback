@@ -38,14 +38,17 @@ export class App extends Component {
     return (
       <>
         <GlobalStyle />
-        <Container>
-          <Section title="Please leave feddback">
+
+        <Section title="Please leave feddback">
+          <Container>
             <FeedbackOptions
               options={this.state}
               onLeaveFeedback={this.handleFeedback}
             ></FeedbackOptions>
-          </Section>
-          <Section title="Statistics">
+          </Container>
+        </Section>
+        <Section title="Statistics">
+          <Container>
             <Statistics
               good={good}
               neutral={neutral}
@@ -53,8 +56,8 @@ export class App extends Component {
               total={this.countTotalFeedback}
               positivePercentage={this.countPositiveFeedbackPercentage}
             ></Statistics>
-          </Section>
-        </Container>
+          </Container>
+        </Section>
       </>
     );
   }
