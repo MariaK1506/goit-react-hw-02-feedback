@@ -13,9 +13,6 @@ export class App extends Component {
   };
 
   handleFeedback = option => {
-    // const buttonKey = event.target.textContent;
-    // console.log(key);
-
     this.setState(prevState => {
       return { [option]: prevState[option] + 1 };
     });
@@ -38,7 +35,6 @@ export class App extends Component {
     return (
       <>
         <GlobalStyle />
-
         <Section title="Please leave feddback">
           <Container>
             <FeedbackOptions

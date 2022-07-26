@@ -9,7 +9,7 @@ export const Statistics = ({
   total,
   positivePercentage,
 }) => {
-  console.log(total);
+  // console.log(total);
   const totalFeedback = total();
   const positivePercent = positivePercentage();
 
@@ -31,7 +31,7 @@ export const Statistics = ({
             <p>
               Bad: <Value>{bad}</Value>
             </p>
-          </Item>{' '}
+          </Item>
           <Item>
             <p>
               Total: <Value>{totalFeedback}</Value>

@@ -22,7 +22,6 @@ export const Button = styled.button`
   text-transform: capitalize;
 
   transition: all 250ms linear;
-
   cursor: pointer;
 
   &:hover,
