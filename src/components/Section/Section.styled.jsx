@@ -6,4 +6,5 @@ export const WrapperSection = styled.section`
 
 export const Title = styled.h2`
   margin-bottom: 15px;
+  padding: 15px;
 `;
