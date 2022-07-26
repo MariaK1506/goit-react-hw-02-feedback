@@ -40,7 +40,7 @@ export class App extends Component {
             <FeedbackOptions
               options={this.state}
               onLeaveFeedback={this.handleFeedback}
-            ></FeedbackOptions>
+            />
           </Container>
         </Section>
         <Section title="Statistics">
@@ -51,7 +51,7 @@ export class App extends Component {
               bad={bad}
               total={this.countTotalFeedback}
               positivePercentage={this.countPositiveFeedbackPercentage}
-            ></Statistics>
+            />
           </Container>
         </Section>
       </>
