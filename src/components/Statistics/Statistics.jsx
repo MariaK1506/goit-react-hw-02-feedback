@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Notification } from 'components/Notification/Notification';
+import { Notification } from 'components/Notification';
 import { List, Item, Value } from './Statistics.styled';
 
 export const Statistics = ({
